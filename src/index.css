@@ -1,1 +1,105 @@
+body{
+   background: linear-gradient(to top right, #ff3867, #ffc873, #d37ec6);
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.images{
+    width: 400px;
+    height: 150px;
+    position: relative;
+}
+
+.background-image{
+    background: url('assets/fondo.jpg');
+    background-size: cover; 
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 400px; /* Toma el 100% del ancho del contenedor */
+    height: 150px; /* Ajusta según tus necesidades */
+    border-radius: 10px;
+    border-bottom: 5px  orange solid;
+ 
+}
+
+.avatar-image{
+    position: absolute;
+    bottom: 0;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 140px;
+    width: 140px;
+    background: url('assets/avatargamer.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 50%;
+    border: 5px solid orange;
+}
+
+.card-content {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Ocupa el espacio restante verticalmente */
+  }
+  
+  .card-content h1,
+  .card-content h3,
+  .card-content p,
+  .card-content button {
+    margin: 6px 40px; /* Ajusta los márgenes según sea necesario */
+  }
+
+  .follow{
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: orange;
+    text-align: center; 
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .follow:hover {
+    background-color: orange;
+    color: white; 
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card-footer p {
+    border-top: 1px solid gray; /* Añade un borde superior de 1 píxel de color gris solo a los párrafos */
+    padding-top: 10px; /* Ajusta el relleno superior según tus necesidades */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+  }
+
+
+
 
